@@ -40,7 +40,7 @@ void loop()
   Delay(200);
 }
 ```
-Currently, up to 10 Spark variables may be defined and each variable name is limited to a max of 12 characters.
+Currently, a user is allowed to define up to 10 Spark variables and each variable name is limited to a max of 12 characters.
 
 There are three supported data types:
 
@@ -354,9 +354,7 @@ The Spark Core connects to the cloud by default, so it's not necessary to call `
 
 NOTE: When the Core is disconnected, many features are not possible, including over-the-air updates, reading Spark.variables, and calling Spark.functions.
 
-*If you flash firmware that does not stay connected very long, you will NOT BE ABLE to flash new firmware.*
-
-A factory reset should solve this.
+*If your firmware does not stay connected very long, you will NOT BE ABLE to flash new firmware. A factory reset should solve this.*
 
 ### Spark.deviceID()
 ---
